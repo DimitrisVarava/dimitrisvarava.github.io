@@ -245,9 +245,6 @@ img {
 	font-size:1rem;
 }
 
-
-
-
 .contact-form button{
 	display: grid;
 	grid-column: 2;
@@ -261,7 +258,6 @@ img {
 }
 
 button:hover{
-
 	background-color: #cdd4db;
 	color: #1b263b;
 	box-shadow: 0 5px 25px rgba(26, 26, 26, .15);
@@ -280,18 +276,15 @@ button:hover{
 	/* Styles for Footer */
 
 .footer-container {
-	
 	background-color: #8595a8;
-
+	box-shadow: 0 3px 16px rgba(26, 26, 26, .1); /* New */
 }
 
 .logo-box {
-
 	margin: 1.5rem auto;
 }
 
 .menu-box{
-	
 	margin: 1.5rem auto;
 	text-align: center;	
 }
@@ -306,13 +299,40 @@ button:hover{
 
 .icons-box{
 	margin: 1.5rem auto;
+	text-align: center;	/* New */
 }
 
+/* New Part for Footer */
+
+.icons-box > a{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: #f2f2f2;
+	padding: 0.7em 0;
+}
+
+.icons-box img{
+	display: block;
+	width:35px;
+	height:auto;
+	margin: auto;
+}
+
+.footer-container {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+}
+
+.logo-box {
+		grid-column: span 12;
+		margin: auto;
+	}
 
 
 
 	 /* ---------- Tablet display ---------- */
-
 
 
 @media (width > 600px)
