@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects - Dmytro Varava - Personal project</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+    <div class="grid-container">
+        <header>
+            <nav class="topnav" id="topnav">
+
+                <div class="topnav-inner">
+
+                    <div class="logo-link">
+                        <img class="logo" src="images/logo.png" alt="Logo">
+                    </div>
+
+                    <div class="nav-links" id="navLinks">
+                        <a href="index.html" >Home</a>
+                        <a href="experience.html">Experience</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="course.html">Course</a>
+                        <a href="projects.html" class="active">Projects</a>
+                        <a href="interests.html">Intersts</a>
+                    </div>
+
+                    <button
+                    class="menu-btn"
+                    id="menuBtn"
+                    type="button"
+                    aria-label="Toggle navigation menu"
+                    aria-controls="navLinks"
+                    aria-expanded="false"
+                    >
+                    <!-- Inline SVG hamburger icon -->
+                    
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                        <path d="M3 6h18M3 12h18M3 18h18" fill="none"
+                            stroke="currentColor" stroke-width="2" 
+                            stroke-linecap="round"/>
+                    </svg>
+                    </button>
+                    
+                    
+                    
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+
+        </main>
+
+        <footer>
+
+            
+        </footer>
+
+    </div>
+    
+    <!-- Script for Gamburger Menu -->
+		<script>
+			const topnav = document.getElementById("topnav");
+			const menuBtn = document.getElementById("menuBtn");
+			
+			menuBtn.addEventListener("click", () => { topnav.classList.toggle("is-open");});
+		</script>
+
+    </body>
+
+</html>
