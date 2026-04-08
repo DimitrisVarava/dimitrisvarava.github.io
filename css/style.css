@@ -1,0 +1,419 @@
+	/*changes how the browser calculates the size of elements, preventing many common layout bugs.*/
+
+* { 
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	color:  #555;
+	background-color: lightcyan;
+	margin: 0;
+	line-height: 1.4;
+}
+
+.grid-container { 
+	display: grid;
+    grid-template-columns: repeat(12,1fr);
+	width: min(1100px, 100%);
+	margin: 0 auto;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.grid-container >* {
+	grid-column: span 12;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+img.logo {
+
+	height: auto;
+	max-width: 200px;
+	border-radius: 0.15rem;
+	display: block;
+	padding: 0;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	border-radius: 0.15rem;
+	display: block;
+}
+
+
+/* Style fo cards on the Course Page */
+
+.page-title {
+    color: #1b263b;
+	padding-top: 3rem;
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+.semester-title {
+	color: #1b263b;
+	margin: 2rem;
+}
+
+.module-card {
+	background: #fff;
+	padding: 1rem;
+	border-radius: 0.15rem;
+	box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
+}
+
+.module-card:hover {
+	transform: translateY(-5px);
+	border: 1px solid lightgrey;
+	box-shadow: 0 5px 25px rgba(26, 26, 26, .3);
+}
+
+.module-title {
+	font-size: 1.3rem;
+	color: #000;
+	color: #1b263b;
+	margin: 0.75rem 0 0.5rem;
+}
+
+.module-desc {
+	margin: 0.5rem 0 0;
+}
+
+
+	/* Styles for Contact Page */
+
+.contact-page{
+	border: 2px solid #f1f1f1;
+	margin: 5rem 0rem;
+	background-color: rgba(255, 255, 255, 0.575);
+}
+.contact-page a {
+
+	color: #1b263b;
+	text-decoration: none;
+
+}
+
+.contact-page h1, 
+.contact-page p {
+
+	color: #1b263b;
+	text-decoration: none;
+	margin: 3rem 0;
+
+}
+
+.contact-page a, 
+.contact-page h1, 
+.contact-page p {
+
+	color: #1b263b;
+	text-decoration: none;
+
+}
+
+.contact-page-info {
+	
+	margin: 0.5rem;
+	padding: 1rem 1rem;
+	/* background-color: #f8ffd2; - just for work */
+}
+
+.contact-page-info p{
+	font-size: 1.3rem;
+	padding: 1.5rem 0;
+}
+
+.contact-page-info a {
+	font-size: 1.5rem;
+}
+
+.contact-page-form {
+
+
+	margin: 0.5rem;
+	padding: 1rem 1rem;
+	/* background-color: #c1ffc5; - just for work */
+}
+
+
+
+.contact-form {
+	display:grid;
+	grid-template-columns: 1fr;
+	gap: 1.25rem 0;
+	margin: 1rem 0;
+}
+
+.form-group {
+	display:flex;
+	flex-direction: column;
+} 
+
+.contact-form textarea,
+.contact-form input {
+	padding:0.6rem;
+	border:1px solid #ccc;
+	border-radius:3px;
+	font-size:1rem;
+}
+
+
+
+
+.contact-form button{
+	display: grid;
+	grid-column: 2;
+	max-width: 15rem;
+	margin:3rem 0;
+	padding: 0.5rem 3rem;
+	color: #f2f2f2;
+	font-size: 1.1rem;
+	background-color: #8595a8;
+	border: none;
+}
+
+button:hover{
+
+	background-color: #cdd4db;
+	color: #1b263b;
+	box-shadow: 0 5px 25px rgba(26, 26, 26, .15);
+} 
+
+
+
+
+
+.contact-page input {
+
+	color: #1b263b;
+
+}
+
+	/* Styles for Footer */
+
+.footer-container {
+	
+	background-color: #8595a8;
+
+}
+
+.logo-box {
+
+	margin: 1.5rem auto;
+}
+
+.menu-box{
+	
+	margin: 1.5rem auto;
+	text-align: center;	
+}
+
+.menu-box > a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: #f2f2f2;
+	padding: 0.5em 0;
+}
+
+.icons-box{
+	margin: 1.5rem auto;
+}
+
+
+
+
+	 /* ---------- Tablet display ---------- */
+
+
+
+@media (width > 600px)
+{
+	.module-card {
+		display: grid;
+		grid-column: span 6;
+	}
+
+
+	.footer-container {
+		display: grid;
+		grid-template-columns: 4fr 4fr 4fr;
+	}
+
+	.logo-box {
+		margin: auto;
+	}
+
+
+	.contact-page{
+		display: grid;
+		grid-template-columns: 12fr;
+	}
+
+	.contact-form{
+		display:grid;
+		grid-template-columns: 2fr 4fr;
+		gap:2.25rem;
+		margin: 2.5rem 0;
+	}
+
+	.contact-page-info{
+		margin: 1rem;
+		padding: 2rem 3rem;
+	
+	}
+
+	.contact-page-info p{
+		font-size: 1.3rem;
+		padding: 2.5rem 0;
+	}
+
+	.contact-page-info a{
+		font-size: 1.5rem;
+	}
+
+	.contact-page-form{
+		margin: 1rem;
+		padding: 3rem;
+	
+	}
+
+}
+
+
+
+
+
+@media (width > 1000px)
+{
+	.module-card {
+		display: grid;
+		grid-column: span 4;
+	}
+
+	.contact-page{
+		display: grid;
+		grid-template-columns: 6fr 6fr;
+	}
+
+}
+
+
+
+	/* Nav (modern flexbox) */
+
+.topnav {
+	background-color: #8798a9;
+	overflow: hidden;    /* ensures child elements don’t spill outside the rounded edges.*/
+}
+
+	  /* this creates spacing between the links and button. 
+	  Even though they are never visible at the same time it is good practice 
+	  as the layout should still work even if nothing is hidden*/
+	 
+	
+.topnav-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem;
+	padding: 0.25rem;
+    }
+	
+.nav-links {
+	display: flex;
+	align-items: center;
+	gap: 0.25rem; 
+}
+
+.topnav a {
+	display: inline-block;
+	color: #f2f2f2;
+	text-decoration: none;
+	padding: 0.8em 1em;
+	font-size: 1.1em;
+	border-radius: 0.1rem;
+}
+
+.topnav a:hover {
+	background-color: #cdd4db;
+	color: #1b263b;
+}
+	
+.topnav a.active {
+	background-color: #93a2b2;
+	color: #fff;
+}
+
+
+
+
+
+
+	/* Style for Burger Menu */
+	
+.menu-btn {
+	display: none; /* shown on small screens */
+	appearance: none;
+	border: 0;
+	background: transparent;
+	color: #f2f2f2;
+	padding: 0.6rem 0.75rem;
+	border-radius: 0.1rem;
+	cursor: pointer;
+    }
+	
+.menu-btn:hover {
+	background-color: #FFFFFF1F;
+}
+
+.menu-btn svg {
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+
+
+	/* Style for Menu with size less then 870 px - For Mobile or Tablet*/
+
+@media (max-width: 870px)
+{
+	.menu-btn {
+		display: inline-flex; 
+		align-items: center;
+	}
+	
+	.nav-links {
+		display: none;
+		width: 100%;
+		flex-direction: column;
+		align-items: stretch;
+	}
+	
+	.topnav.is-open .nav-links {
+		display: flex;
+	}
+	.topnav.is-open .menu-btn {
+		display: none;
+	}
+	
+	.topnav a {
+		width: 100%;
+	}
+
+}
