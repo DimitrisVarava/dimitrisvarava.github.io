@@ -32,6 +32,10 @@ h1 {
 	margin-bottom: 1rem;
 }
 
+h2 {
+	font-size: 1.7rem;
+}
+
 h3 {
 	font-size: 1.5rem;
 }
@@ -47,15 +51,17 @@ img.logo {
 
 
 img {
+	display: block;
 	max-width: 100%;
 	height: auto;
 	margin: auto;
 	border-radius: 0.15rem;
-	display: block;
+	
 }
 
+	 /* ---------- Basic Style for Mobile - Display Width - 430 px ---------- */
 
-/* Style fo cards on the Course Page */
+	/* Style fo cards on the Course Page */
 
 .page-title {
     color: #1b263b;
@@ -71,20 +77,22 @@ img {
 
 .module-card {
 	background: #fff;
+	margin: 0.5rem; /* New */
 	padding: 1rem;
-	border-radius: 0.15rem;
+	border: 1px solid lightgrey; /* New */
+	border-radius: 0.2rem; /* Changed */
 	box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
 }
 
 .module-card:hover {
-	transform: translateY(-5px);
+	/* transform: translateY(-5px);  Changed */
 	border: 1px solid lightgrey;
 	box-shadow: 0 5px 25px rgba(26, 26, 26, .3);
 }
 
 .module-title {
 	font-size: 1.3rem;
-	color: #000;
+	/* color: #000; */
 	color: #1b263b;
 	margin: 0.75rem 0 0.5rem;
 }
@@ -93,8 +101,73 @@ img {
 	margin: 0.5rem 0 0;
 }
 
+	/* Styles for Projects Page */ /* All New */
 
-	/* Styles for Contact Page */
+.projectsPage h1,
+.projectsPage h2 {
+	color: #1b263b;
+	text-decoration: none;
+	margin: 0.5rem 0;
+}
+
+.mainImage {
+    box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
+}
+
+.mainImage:hover {
+    opacity: 1.0;
+    box-shadow: 0 3px 16px rgba(26, 26, 26, .2);
+}
+
+.messageDisplay, 
+.linksDisplay, 
+.thumbnailsDisplay {
+	text-align: center;
+	margin: 3rem 12rem;
+}
+
+.projectsPage p {
+	text-align: center;
+	margin: 1.5rem auto;
+}
+
+
+.thumbnails{
+	display: none;
+	/*display: inline;*/
+    opacity: 0.5;
+	border-radius: 3px;
+    box-shadow: 0 3px 16px rgba(26, 26, 26, .15);
+}
+
+.thumbnails:hover {
+    opacity: 1.0;
+    transform: translateY(-5px); 
+	box-shadow: 0 3px 16px rgba(26, 26, 26, .3);
+}
+
+.swap-image-link {
+	display: inline;
+	max-width: 155px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #8595a8;
+    border: 1px solid lightgray;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2.5rem;
+    margin: 15rem 0;
+    box-shadow: 0 3px 16px rgba(26, 26, 26, .15);
+}
+
+.swap-image-link:hover{
+	color: #1b263b;
+    background-color: #cdd4db;
+    border: 1px solid gray;
+    box-shadow: 0 5px 25px rgba(26, 26, 26, .3);
+}
+
+	/* Styles for Contact Page - Standart Style for Mobile */
 
 .contact-page{
 	border: 2px solid #f1f1f1;
