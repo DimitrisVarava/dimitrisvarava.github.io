@@ -1,3 +1,5 @@
+    /* Swap Function for Thumbnails */
+
 function swap (){
   let imgNum = this.id;
   imgNum = imgNum.slice(-1);
