@@ -337,7 +337,7 @@ button:hover{
 
 @media (width > 600px)
 {
-	.module-card {
+	.module-card-template { /* Changed */
 		display: grid;
 		grid-template-columns: 6fr 6fr; /* Changed */
 	}
