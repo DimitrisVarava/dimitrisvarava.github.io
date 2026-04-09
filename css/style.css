@@ -360,7 +360,18 @@ button:hover{
 		margin: auto;
 	}
 
+	.thumbnails {
+		display: inline;
+	}
+	
+	.swap-image-link {
+		display: inline;
+		margin: 2.5rem 3rem;
+	}
 
+	.thumbnailsDisplay {
+		padding: 0 2rem;
+	}
 
 	.module-title { 
 		/* Alligning headings in Cardss on Course Page - When displaing two or tree cards in a row */
