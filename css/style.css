@@ -339,9 +339,8 @@ button:hover{
 {
 	.module-card {
 		display: grid;
-		grid-column: span 6;
+		grid-template-columns: 6fr 6fr; /* Changed */
 	}
-
 
 	.footer-container {
 		display: grid;
@@ -349,9 +348,24 @@ button:hover{
 	}
 
 	.logo-box {
+		grid-column: 1/2; /* New */
 		margin: auto;
 	}
 
+	.menu-box { /* New */
+		margin: auto;
+	}
+
+	.icon-box { /* New */
+		margin: auto;
+	}
+
+
+
+	.module-title { 
+		/* Alligning headings in Cardss on Course Page - When displaing two or tree cards in a row */
+		min-height: 3.7rem;
+	}
 
 	.contact-page{
 		display: grid;
@@ -389,23 +403,40 @@ button:hover{
 }
 
 
-
-
-
-@media (width > 1000px)
+@media (width > 830px) /* New Part */
 {
-	.module-card {
-		display: grid;
-		grid-column: span 4;
+	.thumbnailsDisplay {
+		padding: 0 2.5rem;
 	}
-
+	
 	.contact-page{
 		display: grid;
 		grid-template-columns: 6fr 6fr;
 	}
 
+	.contact-page-form{
+		padding: 3rem 1rem;
+	}
+
 }
 
+
+@media (width > 1000px)
+{
+	.module-card-template { /* Changed Part */
+		display: grid;
+		grid-template-columns: 4fr 4fr 4fr;
+	}
+
+	.thumbnailsDisplay { /* New Part */
+		padding: 0 5rem;
+	}
+	
+	.contact-page{
+		display: grid;
+		grid-template-columns: 6fr 6fr;
+	}
+}
 
 
 	/* Nav (modern flexbox) */
@@ -455,9 +486,6 @@ button:hover{
 
 
 
-
-
-
 	/* Style for Burger Menu */
 	
 .menu-btn {
@@ -482,7 +510,7 @@ button:hover{
 }
 
 
-	/* Style for Menu with size less then 870 px - For Mobile or Tablet*/
+	/* Style for Menu with size less then 870 px - For Mobile or Tablet */
 
 @media (max-width: 870px)
 {
@@ -508,5 +536,4 @@ button:hover{
 	.topnav a {
 		width: 100%;
 	}
-
 }
