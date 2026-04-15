@@ -74,22 +74,34 @@
                     <form action="https://tusprojects.net/rdwd-contact-response-2026.php" method="POST" class="contact-form">
 
                         <div class="form-group"><label for="Name">Name: </label> </div>
-                            <div class="form-group"><input type="text" name="employerName" id="Name" /></div>
+                            <div class="form-group">
+								<input type="text" name="employerName" id="Name" required title="Please, enter your Name"/>
+							</div>
 
                         <div class="form-group"><label for="Company">Company: </label> </div>
-                            <div class="form-group"><input type="text" name="company" id="Company" /></div>
+                            <div class="form-group">
+								<input type="text" name="company" id="Company" required title="Please, enter your Company Name" />
+							</div>
 
                         <div class="form-group"><label for="MobileNo">Mobile: </label> </div>
-                            <div class="form-group"><input type="tel" name="mobileNo" id="MobileNo" /></div>
+                            <div class="form-group">
+								<input type="tel" name="mobileNo" id="MobileNo" required title="Please, enter your Mobile Number" />
+							</div>
 
                         <div class="form-group"><label for="email">Email: </label> </div>
-                            <div class="form-group"><input type="email" name="emailAdd1" id="email" /></div>
+                            <div class="form-group">
+								<input type="email" name="emailAdd1" id="email" required title="Please, enter your Email"/>
+							</div>
 
                         <div class="form-group"><label for="emailCopy">Copy Email: </label> </div>
-                            <div class="form-group"><input type="email" name="emailAdd2" id="emailCopy" /></div>
+                            <div class="form-group">
+								<input type="email" name="emailAdd2" id="emailCopy" required title="Please, repeat your Email"/>
+							</div>
 
                         <div class="form-group"><label for="comment">Comment: </label> </div>
-                            <div class="form-group"><input type="textarea" name="query" id="comment" /></div>
+                            <div class="form-group">
+								<input type="textarea" name="query" id="comment" required title="Please, add your Comment in this area" />
+							</div>
 
                         <button type="submit">Submit</button>
 
