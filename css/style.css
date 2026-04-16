@@ -88,7 +88,7 @@ img {
 
 .main-page main{
 	min-height: 60vh;
-	background-image: url('../images/workspace.png');
+	background-image: url('https://github.com/DimitrisVarava/dimitrisvarava.github.io/images/workspace.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
