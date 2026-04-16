@@ -170,12 +170,12 @@ img {
 	/* Styles for Contact Page - Standart Style for Mobile */
 
 .contact-page{
-	/* border: 1px solid #f1f1f1;
-	margin: 5rem 0rem;
-	background-color: rgba(255, 255, 255, 0.575); */
-
-	background-color: #fff;
-	box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
+	background: #fff;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+    box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
 }
 
 .contact-page a {
