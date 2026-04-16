@@ -435,6 +435,16 @@ button:hover{
 	
 	}
 
+	.interests-container-1 {
+		display: grid;
+		grid-template-columns: 6fr 6fr;
+	}
+
+	.interests-container-2 {
+		display: grid;
+		grid-template-columns: 6fr 6fr;
+	}
+
 }
 
 
@@ -453,15 +463,7 @@ button:hover{
 		padding: 3rem 1rem;
 	}
 
-	.interests-container-1 {
-		display: grid;
-		grid-template-columns: 6fr 6fr;
-	}
 
-	.interests-container-2 {
-		display: grid;
-		grid-template-columns: 6fr 6fr;
-	}
 
 }
 
