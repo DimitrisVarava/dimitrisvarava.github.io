@@ -263,14 +263,38 @@ button:hover{
 	box-shadow: 0 5px 25px rgba(26, 26, 26, .15);
 } 
 
-
-
-
-
 .contact-page input {
 
 	color: #1b263b;
 
+}
+
+
+	/* Styles for Interests Page */
+
+.interests-container-1 {
+		display: grid;
+		grid-column: span 12;
+		background-color: #fff;
+		margin: 2rem 0;
+		box-shadow: 0 5px 25px rgba(26, 26, 26, .15);
+	}
+
+.interests-container-2 {
+		display: grid;
+		grid-column: span 12;
+		background-color: #fff;
+		margin: 1rem 0;
+		box-shadow: 0 5px 25px rgba(26, 26, 26, .15);
+	}
+
+.interests-left{
+		margin: auto;
+	}
+
+.interests-right{
+		margin: auto;
+		padding: 2rem;
 }
 
 	/* Styles for Footer */
@@ -429,6 +453,16 @@ button:hover{
 		padding: 3rem 1rem;
 	}
 
+	.interests-container-1 {
+		display: grid;
+		grid-template-columns: 6fr 6fr;
+	}
+
+	.interests-container-2 {
+		display: grid;
+		grid-template-columns: 6fr 6fr;
+	}
+
 }
 
 
@@ -446,6 +480,16 @@ button:hover{
 	.contact-page{
 		display: grid;
 		grid-template-columns: 6fr 6fr;
+	}
+
+	.interests-container-1 {
+		display: grid;
+		grid-template-columns: 5fr 7fr;
+	}
+
+	.interests-container-2 {
+		display: grid;
+		grid-template-columns: 7fr 5fr;
 	}
 }
 
