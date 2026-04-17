@@ -315,10 +315,26 @@ button:hover{
 } 
 
 .contact-page input {
-
 	color: #1b263b;
-
 }
+
+a.buttons {
+	text-decoration: none;
+	margin:3rem 0 1rem;
+	padding: 0.5rem 3rem;
+	color: #f2f2f2;
+	font-size: 1.1rem;
+	background-color: #8595a8;
+	box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
+	border: none;
+	border-radius: 0.15rem;
+}
+
+a.buttons:hover{
+	background-color: #cdd4db;
+	color: #1b263b;
+	box-shadow: 0 5px 25px rgba(26, 26, 26, .15);
+} 
 
 
 	/* Styles for Interests Page */
