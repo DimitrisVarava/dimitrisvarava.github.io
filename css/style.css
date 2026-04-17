@@ -86,13 +86,6 @@ img {
 	
 }
 
-.main-page main{
-	min-height: 60vh;
-	background-image: url('../images/workspace.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
 
 	 /* ---------- Basic Style for Mobile - Display Width - 430 px ---------- */
 
@@ -452,6 +445,14 @@ button:hover{
 	.welcome-container {		
 		margin: 5rem 1rem;
 		padding: 2rem;
+	}
+
+	.main-page main{
+		min-height: 60vh;
+		background-image: url('../images/workspace.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 
 }
