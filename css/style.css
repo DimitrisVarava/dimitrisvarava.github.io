@@ -63,7 +63,7 @@ h3 {
 }
 
 p {
-	font-size: 1.1rem;
+	font-size: 1.25rem;
 	color: #1b263b;
 }
 
@@ -237,22 +237,13 @@ img {
 	text-decoration: none;
 }
 
-.contact-page h1, 
-.contact-page p,
-.contact-page a {
-	color: #1b263b;
-	text-decoration: none;
-	margin: 1.5rem 0;
-}
-
 .contact-page-info {
 	margin: 0.5rem;
-	padding: 0 1rem 2rem 1rem;
+	padding: 0 1rem 1.5rem;
 	/* background-color: #f8ffd2; - just for work */
 }
 
 .contact-page-info p{
-	font-size: 1.3rem;
 	padding: 1.5rem 0;
 }
 
@@ -261,14 +252,10 @@ img {
 }
 
 .contact-page-form {
-
-
 	margin: 0.5rem;
 	padding: 1rem 1rem;
 	/* background-color: #c1ffc5; - just for work */
 }
-
-
 
 .contact-form {
 	display:grid;
