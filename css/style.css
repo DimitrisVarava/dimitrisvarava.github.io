@@ -27,7 +27,7 @@
 body {
 	font-family: "Arimo", "Roboto", sans-serif;
 	font-weight: 300;
-	color:  #555;
+	color:  #5f5f5f;
 	background-color: lightcyan;
 	margin: 0;
 	line-height: 1.4;
@@ -68,7 +68,6 @@ p {
 }
 
 img.logo {
-
 	height: auto;
 	max-width: 200px;
 	border-radius: 0.15rem;
