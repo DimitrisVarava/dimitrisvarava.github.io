@@ -1,6 +1,6 @@
 	/* Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap'); */
 
 @font-face {
 	font-family: "Arimo";
@@ -81,9 +81,7 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	margin: auto;
-	border-radius: 0.15rem;
-	
+	margin: auto;	
 }
 
 
@@ -93,8 +91,6 @@ img {
 	 /* Main Page */
 
 .welcome-container {
-	display: grid;
-	grid-column: span 12;
 	background-color: rgba(255, 255, 255, 0.9);
 	padding: 0.5rem;
     border: 1px solid lightgrey;
@@ -103,7 +99,7 @@ img {
 }
 
 .welcome-container img {
-	border-radius: 218px;
+	border-radius: 300px;
 	padding: 3rem;
 }
 
@@ -404,16 +400,10 @@ a.buttons:hover{
 
 	.contact-page-info {
 	
-	margin: 0.5rem;
-	padding: 1rem 2rem;
-}
-
-	.form-group{
-		display:grid;
-		grid-column: span 12;
-		gap:2.25rem;
-		margin: 1.5rem 0;
+		margin: 0.5rem;
+		padding: 1rem 2rem;
 	}
+
 	.contact-page-form button{
 		grid-column: 2/3;
 		max-width: 175px;
@@ -425,11 +415,6 @@ a.buttons:hover{
 
 	.form-input {
 		margin: 0;
-	}
-
-	.welcome-container {		
-		margin: 5rem 1rem;
-		padding: 2rem;
 	}
 
 	.main-page main{
@@ -445,9 +430,24 @@ a.buttons:hover{
 
 @media (width > 600px)
 {
+
+	.welcome-container {
+		margin: 3rem;
+	}
+
+	.welcome-right {
+		margin: 3rem;
+    	padding: 2rem 1.5rem;
+    	
+	}
+
 	.module-card-template { /* Changed */
 		display: grid;
 		grid-template-columns: 6fr 6fr; /* Changed */
+	}
+
+	.module-card {
+		margin: 0.5rem;
 	}
 
 	.footer-container {
@@ -486,13 +486,7 @@ a.buttons:hover{
 		min-height: 3.7rem;
 	}
 
-	.contact-page{
-		display: grid;
-		grid-template-columns: 12fr;
-	}
-
 	.contact-form{
-		display:grid;
 		grid-template-columns: 2fr 4fr;
 		gap:2.25rem;
 		margin: 2.5rem 0;
@@ -515,23 +509,17 @@ a.buttons:hover{
 
 	.contact-page-form{
 		margin: 1rem;
-		padding: 3rem;
-	
+		padding: 1rem 3rem;
 	}
 
 	.interests-container-1 {
 		display: grid;
-		grid-template-columns: 6fr 6fr;
+		grid-template-columns: 4fr 8fr;
 	}
 
 	.interests-container-2 {
 		display: grid;
-		grid-template-columns: 6fr 6fr;
-	}
-
-	.welcome-container {		
-		margin: 15rem 3rem;
-		padding: 5rem;
+		grid-template-columns: 8fr 4fr;
 	}
 
 }
@@ -549,15 +537,30 @@ a.buttons:hover{
 	}
 
 	.contact-page-form{
-		padding: 3rem 1rem;
+		padding: 0 1rem;
+	}
+
+	.contact-form {
+		margin: 0;
+		gap: 1.5rem;
 	}
 
 	.welcome-container {
 		display: grid;
-		grid-template-columns: 6fr 6fr;
-		margin: 15rem 3rem;
-		padding: 7rem 3rem;
+		grid-template-columns: 5fr 7fr;
+		margin: 3rem;
+    	padding: 2rem;
 	}
+
+	.welcome-container img {
+    	border-radius: 300px;
+    	padding: 0;
+	}
+
+	.welcome-right {
+        margin: 1rem;
+        padding: 2rem 1.5rem;
+    }
 
 }
 
@@ -573,11 +576,6 @@ a.buttons:hover{
 		padding: 0 5rem;
 	}
 	
-	.contact-page{
-		display: grid;
-		grid-template-columns: 6fr 6fr;
-	}
-
 	.interests-container-1 {
 		display: grid;
 		grid-template-columns: 5fr 7fr;
