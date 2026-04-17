@@ -63,7 +63,7 @@ h3 {
 }
 
 p {
-	font-size: 1.25rem;
+	font-size: 1.3rem;
 	color: #1b263b;
 }
 
@@ -160,8 +160,6 @@ img {
 
 .projectsPage h1,
 .projectsPage h2 {
-	color: #1b263b;
-	text-decoration: none;
 	margin: 0.5rem 0;
 }
 
@@ -178,14 +176,11 @@ img {
 .linksDisplay, 
 .thumbnailsDisplay {
 	text-align: center;
-	margin: 3rem 12rem;
 }
 
 .projectsPage p {
-	text-align: center;
 	margin: 1.5rem auto;
 }
-
 
 .thumbnails{
 	display: none;
