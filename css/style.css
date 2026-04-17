@@ -238,22 +238,19 @@ img {
 .contact-page a {
 	color: #1b263b;
 	text-decoration: none;
-
 }
 
 .contact-page h1, 
 .contact-page p,
 .contact-page a {
-
 	color: #1b263b;
 	text-decoration: none;
 	margin: 1.5rem 0;
-
 }
 
 .contact-page-info {
 	margin: 0.5rem;
-	padding: 0 1rem;
+	padding: 0 1rem 2rem 1rem;
 	/* background-color: #f8ffd2; - just for work */
 }
 
