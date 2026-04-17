@@ -359,7 +359,7 @@ a.buttons:hover{
 	text-align: center;	/* New */
 }
 
-/* New Part for Footer */
+	/* New Part for Footer */
 
 .icons-box > a{
 	display: flex;
@@ -398,7 +398,6 @@ a.buttons:hover{
 	}
 
 	.contact-page-info {
-	
 		margin: 0.5rem;
 		padding: 1rem 2rem;
 	}
@@ -516,7 +515,6 @@ a.buttons:hover{
 		display: grid;
 		grid-template-columns: 8fr 4fr;
 	}
-
 }
 
 
@@ -629,7 +627,6 @@ a.buttons:hover{
 	background-color: #93a2b2;
 	color: #fff;
 }
-
 
 
 	/* Style for Burger Menu */
