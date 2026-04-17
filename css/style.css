@@ -108,11 +108,11 @@ img {
 }
 
 .welcome-left{
-		margin: auto;
+	margin: auto;
 }
 
 .welcome-right {
-		padding: 2rem 1.5rem;
+	padding: 2rem 1.5rem;
 }
 
 .welcome-right a {
@@ -122,10 +122,7 @@ img {
 	/* Style fo cards on the Course Page */
 
 .page-title {
-    color: #1b263b;
-	padding-top: 3rem;
 	text-align: center;
-	font-size: 1.6rem;
 }
 
 .semester-title {
