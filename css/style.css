@@ -76,7 +76,6 @@ img.logo {
 	padding: 0;
 }
 
-
 img {
 	display: block;
 	max-width: 100%;
@@ -312,22 +311,22 @@ a.buttons:hover{
 	/* Styles for Interests Page */
 
 .interests-container-1, .interests-container-2 {
-		display: grid;
-		grid-column: span 12;
-		background-color: #fff;
-		margin: 2rem 0;
-		padding: 0.5rem;
-    	border: 1px solid lightgrey;
-    	border-radius: 0.2rem;
-    	box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
+	display: grid;
+	grid-column: span 12;
+	background-color: #fff;
+	margin: 2rem 0;
+	padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+    box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
 	}
 
 .interests-left{
-		margin: auto;
+	margin: auto;
 	}
 
 .interests-right{
-		padding: 2rem 1.5rem;
+	padding: 2rem 1.5rem;
 }
 
 
@@ -392,8 +391,8 @@ a.buttons:hover{
 
 	 /* ---------- Tablet display ---------- */
 
-@media (width > 430px){
-
+@media (width > 430px)
+{
 	.contact-page{
 		margin: 0;
 	}
@@ -424,13 +423,11 @@ a.buttons:hover{
 		background-size: cover;
 		background-position: center;
 	}
-
 }
 
 
 @media (width > 600px)
 {
-
 	.welcome-container {
 		margin: 3rem;
 	}
@@ -438,7 +435,6 @@ a.buttons:hover{
 	.welcome-right {
 		margin: 3rem;
     	padding: 2rem 1.5rem;
-    	
 	}
 
 	.module-card-template { /* Changed */
@@ -495,7 +491,6 @@ a.buttons:hover{
 	.contact-page-info{
 		margin: 1rem;
 		padding: 2rem 3rem;
-	
 	}
 
 	.contact-page-info p{
@@ -527,6 +522,23 @@ a.buttons:hover{
 
 @media (width > 830px) /* New Part */
 {
+	.welcome-container {
+		display: grid;
+		grid-template-columns: 5fr 7fr;
+		margin: 3rem;
+    	padding: 2rem;
+	}
+
+	.welcome-container img {
+    	border-radius: 300px;
+    	padding: 0;
+	}
+
+	.welcome-right {
+        margin: 1rem;
+        padding: 2rem 1.5rem;
+    }
+	
 	.thumbnailsDisplay {
 		padding: 0 2.5rem;
 	}
@@ -544,29 +556,14 @@ a.buttons:hover{
 		margin: 0;
 		gap: 1.5rem;
 	}
-
-	.welcome-container {
-		display: grid;
-		grid-template-columns: 5fr 7fr;
-		margin: 3rem;
-    	padding: 2rem;
-	}
-
-	.welcome-container img {
-    	border-radius: 300px;
-    	padding: 0;
-	}
-
-	.welcome-right {
-        margin: 1rem;
-        padding: 2rem 1.5rem;
-    }
-
 }
 
 
 @media (width > 1000px)
 {
+	.welcome-container {
+    	margin: 13rem 3rem;
+	}
 	.module-card-template { /* Changed Part */
 		display: grid;
 		grid-template-columns: 4fr 4fr 4fr;
