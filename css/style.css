@@ -135,7 +135,7 @@ img {
 
 .module-card {
 	background: #fff;
-	margin: 0.5rem; /* New */
+	margin: 0.5rem 0; /* New */
 	padding: 1rem;
 	border: 1px solid lightgrey; /* New */
 	border-radius: 0.2rem; /* Changed */
@@ -229,7 +229,6 @@ img {
 
 .contact-page{
 	background: #fff;
-    margin: 0.5rem 0;
     padding: 1rem;
     border: 1px solid lightgrey;
     border-radius: 0.2rem;
@@ -237,34 +236,24 @@ img {
 }
 
 .contact-page a {
-
 	color: #1b263b;
 	text-decoration: none;
 
 }
 
 .contact-page h1, 
-.contact-page p {
+.contact-page p,
+.contact-page a {
 
 	color: #1b263b;
 	text-decoration: none;
-	margin: 3rem 0;
-
-}
-
-.contact-page a, 
-.contact-page h1, 
-.contact-page p {
-
-	color: #1b263b;
-	text-decoration: none;
+	margin: 1.5rem 0;
 
 }
 
 .contact-page-info {
-	
 	margin: 0.5rem;
-	padding: 1rem 1rem;
+	padding: 0 1rem;
 	/* background-color: #f8ffd2; - just for work */
 }
 
