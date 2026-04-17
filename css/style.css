@@ -93,26 +93,30 @@ img {
 	 /* Main Page */
 
 .welcome-container {
-		display: grid;
-		grid-column: span 12;
-		background-color: rgba(255, 255, 255, 0.9);
-		margin: 2rem 0;
-		padding: 0.5rem;
-    	border: 1px solid lightgrey;
-    	border-radius: 0.2rem;
-    	box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
-	}
+	display: grid;
+	grid-column: span 12;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+    box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
+}
 
-
-.welcome-container img{
+.welcome-container img {
 	border-radius: 218px;
-	}
+	padding: 3rem;
+}
+
 .welcome-left{
 		margin: auto;
-	}
+}
 
-.welcome-right{
+.welcome-right {
 		padding: 2rem 1.5rem;
+}
+
+.welcome-right a {
+	margin: 3rem 0;
 }
 
 	/* Style fo cards on the Course Page */
