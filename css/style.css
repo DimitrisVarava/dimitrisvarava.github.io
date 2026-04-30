@@ -328,6 +328,30 @@ a.buttons:hover{
 	padding: 2rem 1.5rem;
 }
 
+	/*Styles for Guides */
+
+.guides-container {
+	display: grid;
+	grid-column: span 12;
+	background-color: #fff;
+	margin: 2rem 0;
+	padding: 2rem 1.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+    box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
+	}
+
+hr {
+	box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+	border: 0;
+    border-top: 1px solid #eee;
+}
+
+.publication-date {
+	font-size: 0.9rem;
+}
 
 	/* Styles for Footer */
 
