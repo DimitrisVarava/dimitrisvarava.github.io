@@ -52,6 +52,18 @@ h1 {
 	color: #1b263b;
 }
 
+/*
+h2 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+h3 {
+  margin-top: 24px;
+  font-size: 20px;
+  color: #444;
+} */
+
 h2 {
 	font-size: 1.75rem;
 	color: #1b263b;
@@ -341,15 +353,55 @@ a.buttons:hover{
     box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
 	}
 
-hr {
-	box-sizing: content-box;
-    height: 0;
-    overflow: visible;
-	border: 0;
-    border-top: 1px solid #eee;
+.guide-hero {
+	text-align: center;
+	margin: 2.5rem auto 2.5rem;
+	max-width: 700px;
 }
 
-.publication-date {
+	/* Modern soft gradient for Section Divider */
+
+.section-divider {
+	height: 2px;
+	margin: 3rem 0;
+	background: linear-gradient(
+    	to right,
+    	transparent,
+    	lightgrey,
+    	transparent);
+}
+
+.guide-section {
+	margin: 0;
+}
+
+.highlight-box {
+  padding: 1.25rem;
+  border-left: 4px solid #8595a8;
+  border-right: 4px solid #8595a8;
+  background-color: rgba(238, 238, 238, 0.63);
+  border-radius: 1rem;
+  margin: 2rem 0;
+  box-shadow: 0 3px 16px rgba(26, 26, 26, .25);
+}
+
+.guide-section, .section-card {
+  padding: 1rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 3px 16px rgba(26, 26, 26, .1);
+  margin:1.5rem 0;
+}
+
+ul {
+  padding-left: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+li {
+  margin-bottom: 0.7rem;
+}
+
+.meta {
 	font-size: 0.9rem;
 }
 
@@ -445,6 +497,7 @@ hr {
 		background-size: cover;
 		background-position: center;
 	}
+
 }
 
 
