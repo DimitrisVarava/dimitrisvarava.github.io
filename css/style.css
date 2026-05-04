@@ -18,7 +18,7 @@
 	font-display: swap;
 }
 
-/* Changes how the browser calculates the size of elements, preventing many common layout bugs.*/
+	/* Changes how the browser calculates the size of elements, preventing many common layout bugs.*/
 
 * { 
 	box-sizing: border-box;
@@ -62,7 +62,8 @@ h3 {
   margin-top: 24px;
   font-size: 20px;
   color: #444;
-} */
+} 
+*/
 
 h2 {
 	font-size: 1.75rem;
@@ -74,9 +75,26 @@ h3 {
 	color: #1b263b;
 }
 
+h4 {
+	font-size: 1.15rem;
+	color: rgba(27, 38, 59, 0.75);
+}
+
 p {
 	font-size: 1.3rem;
 	color: #1b263b;
+}
+
+p.meta {
+	font-size: 1.15rem;
+	color: rgba(27, 38, 59, 0.75);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: auto;	
 }
 
 img.logo {
@@ -87,16 +105,8 @@ img.logo {
 	padding: 0;
 }
 
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	margin: auto;	
-}
-
 
 	 /* ---------- Basic Style for Mobile - Display Width - 430 px ---------- */
-
 
 	 /* Main Page */
 
@@ -125,7 +135,8 @@ img {
 	margin: 3rem 0;
 }
 
-	/* Style fo cards on the Course Page */
+
+	/* Style fo Cards on the Course Page */
 
 .page-title {
 	text-align: center;
@@ -161,6 +172,7 @@ img {
 .module-desc {
 	margin: 0.5rem 0 0;
 }
+
 
 	/* Styles for Projects Page */ /* All New */
 
@@ -216,6 +228,7 @@ img {
     border: 1px solid gray;
     box-shadow: 0 5px 25px rgba(26, 26, 26, .3);
 }
+
 
 	/* Styles for Contact Page - Standart Style for Mobile */
 
@@ -329,7 +342,8 @@ a.buttons:hover{
 	padding: 2rem 1.5rem;
 }
 
-	/*Styles for Guides */
+
+	/* Styles for Guides Page*/
 
 .guides-container {
 	display: grid;
@@ -346,18 +360,6 @@ a.buttons:hover{
 	text-align: center;
 	margin: 2.5rem auto 2.5rem;
 	max-width: 700px;
-}
-
-	/* Modern soft gradient for Section Divider */
-
-.section-divider {
-	height: 2px;
-	margin: 3rem 0;
-	background: linear-gradient(
-    	to right,
-    	transparent,
-    	lightgrey,
-    	transparent);
 }
 
 .guide-section-left, 
@@ -413,6 +415,7 @@ li {
 	font-size: 0.9rem;
 }
 
+
 	/* Styles for Footer */
 
 .footer-container {
@@ -442,6 +445,7 @@ li {
 	text-align: center;	/* New */
 }
 
+
 	/* New Part for Footer */
 
 .icons-box > a{
@@ -469,6 +473,50 @@ li {
 		grid-column: span 12;
 		margin: auto;
 	}
+
+
+	/* Sections Dividers */
+
+	/* Main Divider for Sections with soft gradient */
+
+.section-divider {
+	height: 2px;
+	margin: 3rem 0;
+	background: linear-gradient(
+    	to right,
+    	transparent,
+    	lightgrey,
+    	transparent);
+}
+
+	/* Other types of Dividers */
+
+.section-divider-modern {
+	height: 1px;
+	margin: 48px 0;
+	background: linear-gradient(
+		to right,
+		transparent,
+		#e5e7eb,
+		transparent
+	);
+}
+
+.section-divider-minimalism {
+	height: 1px;
+	background: #e5e7eb;
+	margin: 48px 0;
+}
+
+.section-divider-accent {
+	height: 3px;
+	width: 75px;
+	/* background: #4f46e5; */
+	background: #8595a8;
+	margin: 40px 0;
+	border-radius: 2px;
+}
+
 
 	/* Hovers */
 
@@ -765,7 +813,7 @@ button:hover{
 	gap: 0.25rem; 
 }
 
-.topnav a {
+.nav-links a {
 	display: inline-block;
 	color: #f2f2f2;
 	text-decoration: none;
@@ -774,12 +822,12 @@ button:hover{
 	border-radius: 0.1rem;
 }
 
-.topnav a:hover {
+.nav-links a:hover {
 	background-color: #cdd4db;
 	color: #1b263b;
 }
 	
-.topnav a.active {
+.nav-links a.active {
 	background-color: #93a2b2;
 	color: #fff;
 }
