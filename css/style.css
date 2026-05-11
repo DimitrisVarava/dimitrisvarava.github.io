@@ -48,14 +48,17 @@ body {
 
 .index-page-container,
 .contact-page-container {
-	margin: 2rem 0.5rem;
+	margin: 2rem 0.15rem;
 }
 
 .course-page-container,
-.projects-page-container,
+.projects-page-container {
+	margin: 0 0.15rem 2rem;
+}
+
 .interests-page-container,
 .guides-page-container {
-	margin: 0 0.5rem;
+	margin: 0 0.15rem;
 }
 
 h1 {
@@ -622,6 +625,7 @@ button:hover{
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
+		margin: 2rem 0.5rem;
 	}
 
 }
@@ -715,17 +719,26 @@ button:hover{
 @media (width > 760px) {
 
 	.grid-container { 
-		gap: 1.7rem;
-		padding: 1rem;
+		/* gap: 1.7rem; */
+		padding: 0;
 	}
 
-	.index-page-container,
-	.contact-page-container,
-	.course-page-container,
+	.linksDisplay {
+		margin: 2.5rem auto;
+	}
+
+	.course-page-container {
+		margin: 0 0 1.5rem;
+	}
+
 	.projects-page-container,
+	.contact-page-container {
+		margin: 2rem 0.5rem;
+	}
+
 	.interests-page-container,
-	.guides-page-container  {
-		margin: 0;
+	.guides-page-container {
+		margin: 0 0.5rem;
 	}
 
 	.guide-sections {
@@ -831,13 +844,13 @@ button:hover{
 	.interests-last-paragraph-right {
 		grid-row: 2 / 3;
 		grid-column: 1 / 13;
-		padding: 0 1.5rem 1.5rem;
+		/* padding: 0 1.5rem 1.5rem; */
 	}
 
 	.interests-last-paragraph-left {
 		grid-row: 2 / 3;
 		grid-column: 1 / 13;
-		padding: 0 1.5rem 1.5rem;
+		/* padding: 0 1.5rem 1.5rem; */
 	}
 
 }
