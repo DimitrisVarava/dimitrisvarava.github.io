@@ -38,12 +38,24 @@ body {
     grid-template-columns: repeat(12,1fr);
 	width: min(1100px, 100%);
 	margin: 0 auto;
-	gap: 1rem;
-	padding: 1rem;
+	/* gap: 1rem; */
+	/* padding: 1rem; */
 }
 
 .grid-container >* {
 	grid-column: span 12;
+}
+
+.index-page-container,
+.contact-page-container {
+	margin: 2rem 0.15rem;
+}
+
+.course-page-container,
+.projects-page-container,
+.interests-page-container,
+.guides-page-container {
+	margin: 0 0.15rem;
 }
 
 h1 {
@@ -110,6 +122,7 @@ img.logo {
 
 	 /* Main Page */
 
+
 .welcome-container {
 	background-color: rgba(255, 255, 255, 0.9);
 	padding: 0.5rem;
@@ -175,6 +188,7 @@ img.logo {
 
 
 	/* Styles for Projects Page */ /* All New */
+
 
 .projectsPage h1,
 .projectsPage h2 {
@@ -321,6 +335,7 @@ a.buttons:hover{
 
 
 	/* Styles for Interests Page */
+
 
 .interests-container-1, 
 .interests-container-2 {
@@ -698,6 +713,20 @@ button:hover{
 	/* --- iPad Display - 768 px --- */
 
 @media (width > 760px) {
+
+	.grid-container { 
+		gap: 1.7rem;
+		padding: 1rem;
+	}
+
+	.index-page-container,
+	.contact-page-container,
+	.course-page-container,
+	.projects-page-container,
+	.interests-page-container,
+	.guides-page-container  {
+		margin: 0;
+	}
 
 	.guide-sections {
 		display: grid;
