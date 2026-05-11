@@ -628,6 +628,10 @@ button:hover{
 		margin: 2rem 0.5rem;
 	}
 
+	.guides-container {
+		padding: 3rem 2rem;
+	}
+
 }
 
 
@@ -852,7 +856,7 @@ button:hover{
 		grid-column: 1 / 13;
 		/* padding: 0 1.5rem 1.5rem; */
 	}
-
+	
 }
 
 	/* --- My iPad 9 Display Vertical - 810 px --- */
@@ -910,7 +914,7 @@ button:hover{
 	.list-minimum-hight {
 		min-height: auto;
 	}
-	
+
 }
 
 
@@ -951,6 +955,7 @@ button:hover{
 	.interests-last-paragraph {
 		display: block;
 	}
+
 }
 
 
