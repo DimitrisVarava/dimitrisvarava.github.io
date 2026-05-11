@@ -855,8 +855,9 @@ button:hover{
 
 }
 
+	/* --- My iPad 9 Display Vertical - 810 px --- */
 
-@media (width > 830px)
+@media (width > 800px)
 {
 	.welcome-container {
 		display: grid;
@@ -913,7 +914,9 @@ button:hover{
 }
 
 
-@media (width > 1000px)
+	/* --- My iPad 9 Display Horisontal - 1080 px --- */
+
+@media (width > 1070px)
 {
 	.welcome-container {
     	margin: 13rem 3rem;
