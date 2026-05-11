@@ -48,17 +48,17 @@ body {
 
 .index-page-container,
 .contact-page-container {
-	margin: 2rem 0.15rem;
+	margin: 2rem 0.25rem;
 }
 
 .course-page-container,
 .projects-page-container {
-	margin: 0 0.15rem 2rem;
+	margin: 0 0.25rem 2rem;
 }
 
 .interests-page-container,
 .guides-page-container {
-	margin: 0 0.15rem;
+	margin: 0 0.25rem;
 }
 
 h1 {
@@ -154,6 +154,7 @@ img.logo {
 
 	/* Style fo Cards on the Course Page */
 
+
 .page-title {
 	text-align: center;
 }
@@ -190,7 +191,7 @@ img.logo {
 }
 
 
-	/* Styles for Projects Page */ /* All New */
+	/* Styles for Projects Page */
 
 
 .projectsPage h1,
@@ -248,6 +249,7 @@ img.logo {
 
 
 	/* Styles for Contact Page - Standart Style for Mobile */
+
 
 .contact-page{
 	background: #fff;
@@ -371,7 +373,9 @@ a.buttons:hover{
 	display: none;
 }
 
+
 	/* Styles for Guides Page*/
+
 
 .guides-container {
 	display: grid;
@@ -393,20 +397,6 @@ a.buttons:hover{
 .guide-section-left, 
 .guide-section-right {
 	margin: 0;
-}
-
-.highlight-box {
-	padding: 1.25rem;
-
-	/* border-left: 4px solid #8595a8;
-	border-right: 4px solid #8595a8; */
-
-	border-left: 4px solid #7a51da;
-	border-right: 4px solid #7a51da;
-	background-color: rgba(238, 238, 238, 0.63);
-	border-radius: 1rem;
-	margin: 2rem 0;
-	box-shadow: 0 3px 16px rgba(26, 26, 26, .25);
 }
 
 .guide-section-left,
@@ -461,6 +451,7 @@ li {
 
 
 	/* Styles for Footer */
+
 
 .footer-container {
 	background-color: #8595a8;
@@ -519,6 +510,23 @@ li {
 	}
 
 
+	/* --- Extra Styles --- */
+
+
+.highlight-box {
+	padding: 1.25rem;
+
+	/* border-left: 4px solid #8595a8;
+	border-right: 4px solid #8595a8; */
+
+	border-left: 4px solid #7a51da;
+	border-right: 4px solid #7a51da;
+	background-color: rgba(238, 238, 238, 0.63);
+	border-radius: 1rem;
+	margin: 2rem 0;
+	box-shadow: 0 3px 16px rgba(26, 26, 26, .25);
+}
+
 	/* Sections Dividers */
 
 	/* Main Divider for Sections with soft gradient */
@@ -533,7 +541,19 @@ li {
     	transparent);
 }
 
-	/* Other types of Dividers */
+	/* Short Devider to create an Accent*/
+
+
+.section-divider-accent {
+	height: 3px;
+	width: 75px;
+	/* background: #4f46e5; */
+	background: #7a51da;
+	margin: 40px 0;
+	border-radius: 2px;
+}
+
+	/* Other types of Dividers - Do not use it yet */
 
 .section-divider-modern {
 	height: 1px;
@@ -552,17 +572,9 @@ li {
 	margin: 48px 0;
 }
 
-.section-divider-accent {
-	height: 3px;
-	width: 75px;
-	/* background: #4f46e5; */
-	background: #7a51da;
-	margin: 40px 0;
-	border-radius: 2px;
-}
-
 
 	/* Hovers */
+
 
 .thumbnails:hover {
     opacity: 1.0;
@@ -593,6 +605,9 @@ button:hover{
 	box-shadow: 0 5px 25px rgba(26, 26, 26, .1);
 }
 
+
+	/* --- Media Styles --- */
+
 	 /* --- Standart Tablet Display --- */
 
 @media (width > 430px)
@@ -620,7 +635,7 @@ button:hover{
 	}
 
 	.main-page main{
-		min-height: 60vh;
+		/* min-height: 60vh; */
 		background-image: url('../images/workspace.png');
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -859,14 +874,14 @@ button:hover{
 	
 }
 
-	/* --- My iPad 9 Display Vertical - 810 px --- */
+	/* --- My iPad 9 Display Portait - 810 px --- */
 
 @media (width > 800px)
 {
 	.welcome-container {
 		display: grid;
 		grid-template-columns: 5fr 7fr;
-		margin: 3rem;
+		margin: 10rem 3rem;
     	padding: 2rem;
 	}
 
@@ -918,7 +933,7 @@ button:hover{
 }
 
 
-	/* --- My iPad 9 Display Horisontal - 1080 px --- */
+	/* --- My iPad 9 Display Landscape - 1080 px --- */
 
 @media (width > 1070px)
 {
