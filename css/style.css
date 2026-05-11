@@ -48,14 +48,14 @@ body {
 
 .index-page-container,
 .contact-page-container {
-	margin: 2rem 0.15rem;
+	margin: 2rem 0.5rem;
 }
 
 .course-page-container,
 .projects-page-container,
 .interests-page-container,
 .guides-page-container {
-	margin: 0 0.15rem;
+	margin: 0 0.5rem;
 }
 
 h1 {
