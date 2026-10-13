@@ -732,7 +732,7 @@ button:hover{
 
 }
 
-	/* --- iPad Display - 768 px --- */
+	/* --- Tablet Displays - 768 px --- */
 
 @media (width > 760px) {
 
@@ -903,9 +903,11 @@ button:hover{
 		grid-template-columns: 6fr 6fr;
 	}
 
-	/* .contact-page-form{
+	/* 
+	.contact-page-form{
 		padding: 0 1rem;
-	} */
+	} 
+	*/
 
 	.contact-form {
 		margin: 0;
@@ -938,9 +940,9 @@ button:hover{
 
 
 	/* --- iPad 9 Display Landscape - 1080 px --- */
-	/* --- iPad M5 Display Portrait - 1030 px --- */
+	/* --- iPad M5 Display Portrait - 1032 px --- */
 
-@media (width > 1030px)
+@media (width > 1032px)
 {
 	.welcome-container {
     	margin: 13rem 3rem;
