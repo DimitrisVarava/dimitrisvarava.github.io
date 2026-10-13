@@ -937,9 +937,10 @@ button:hover{
 }
 
 
-	/* --- My iPad 9 Display Landscape - 1080 px --- */
+	/* --- iPad 9 Display Landscape - 1080 px --- */
+	/* --- iPad M5 Display Portrait - 1030 px --- */
 
-@media (width > 1070px)
+@media (width > 1030px)
 {
 	.welcome-container {
     	margin: 13rem 3rem;
